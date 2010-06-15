@@ -1,29 +1,7 @@
-Webservice helper 1.5 - Readme
-For more information see www.jool.nl/webservicehelper/
-Author: David Kingma david<AT>jool<DOT>nl
+This is a fork of Webservice helper 1.5
+Original author: Author: David Kingma david<AT>jool<DOT>nl
 
-1. Changelog
-2. What does the webservice helper?
-3. Manual
-4. FAQ
-6. Example
-7. TODO
-
-Changelog 1.5
-- New Rename and prefix classes, except the WSHelper class
-- Support literal and encoded services
-- Use new native get ReflectionProperty::getDocComment()
-- Catch any exceptions only in the service.php (and rethrow a soapFault with the exception
-  message) to allow for better error handling and database transaction revert
-- Revamp the template system to use XSLTemplate class
-- All IPReflection classes now support annotations
-- Fix bug with parameter order
-- Fix bug with method calls without parameters (Shawn Cook)
-- Fix: don't create a reflection object, unless it's needed for WSDL generation
-  or documentation
-- Use native ob_gz output compression callback
-- Support persistence settings
-
+-------------------------------------------------------------------
 
 -- 1. What does the webservice helper?
 
